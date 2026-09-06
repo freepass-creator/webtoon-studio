@@ -1,0 +1,39 @@
+{
+  "template": "CASTING-ABS-v1.0",
+  "candidate_code": "OFFICE-01",
+  "display_name": "한서윤",
+  "canvas_px": [
+    2400,
+    3200
+  ],
+  "scale_px_per_cm": 10,
+  "floor_y_px": 2300,
+  "height_cm": 168,
+  "weight_kg": 55,
+  "body_height_px": 1680,
+  "views": [
+    "front",
+    "left-profile",
+    "back"
+  ],
+  "status": "candidate",
+  "tests": {
+    "representative_profile": "created",
+    "absolute_scale_profile": "created",
+    "face_reference": "created",
+    "body_turnaround": "created",
+    "expression": "created",
+    "costume": "created",
+    "pose": "created",
+    "chemistry": "not-created"
+  },
+  "viewer_order": [
+    "representative-profile",
+    "casting-profile",
+    "body-turnaround",
+    "face-reference",
+    "expression-test",
+    "costume-test",
+    "pose-test"
+  ]
+}
