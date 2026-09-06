@@ -1,32 +1,21 @@
-# 누군가의 봄
+# WEBTOON STUDIO
 
-올린 콘티 칸을 그대로 세로로 쌓은 HTML 웹툰입니다. 새로 그린 그림은 쓰지 않습니다.
+GitHub에서 바로 열어보는 실사형 세로 스크롤 웹툰 스튜디오.
 
-- EP.8 조금씩, 선이 흐려진다
-- EP.9 더 깊어지는 관계
+## 작품
 
-대사와 지문은 콘티 칸 안에 이미 들어 있습니다.
+### [누군가의 봄 →](webtoons/someone-spring/README.md)
 
-## 보기
+직장과 봉사활동 사이에서 이어지는 관계 드라마. EP.01·08·09 바로보기.
 
-```bash
-npm install
-npm run dev -- --port 43217
-```
+### [월급날 이후 →](college-drama/README.md)
 
-브라우저에서 [http://localhost:43217/webtoons/someone-spring/ep08.html](http://localhost:43217/webtoons/someone-spring/ep08.html)
+29세 직장인 주인공의 현실 드라마. 현재 주인공 캐스팅 진행 중.
 
-정적 파일만 열려면 `public/`을 서버 루트로 두면 됩니다.
+### [조선 궁중극 →](joseon-palace-drama/README.md)
 
-## 파일
+가상 조선 초기 왕실을 배경으로 한 궁중 로맨스·권력 스릴러. 콘셉트 개발 중.
 
-- `webtoons/someone-spring/ep08.html` · `ep09.html` — 한 편당 HTML 하나
-- `webtoons/someone-spring/ep08/scene-*.png` — EP.8 콘티에서 자른 칸
-- `webtoons/someone-spring/ep09/scene-*.png` — EP.9 콘티에서 자른 칸
-- `public/webtoons/someone-spring/` — 같은 파일을 브라우저로 제공
+---
 
-## Studio projects
-
-- [누군가의 봄](./someone-spring/) — 연재 자료
-- [College Drama](./college-drama/) — 현대극 캐스팅 진행
-- [Joseon Palace Drama](./joseon-palace-drama/) — 조선 초기풍 궁중 밀회극, 콘셉트 개발 중
+[공통 제작·열람 매뉴얼](AGENTS.md)
