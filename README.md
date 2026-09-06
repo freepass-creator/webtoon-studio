@@ -4,9 +4,9 @@ GitHub에서 바로 열어보는 실사형 세로 스크롤 웹툰 스튜디오.
 
 ## 작품
 
-### [누군가의 봄 →](webtoons/someone-spring/README.md)
+### [누군가의 봄 →](someone-spring/README.md)
 
-직장과 봉사활동 사이에서 이어지는 관계 드라마. EP.01·08·09 바로보기.
+23세 대학생과 휠체어를 이용하는 성인 남성이 봉사활동에서 만나 가까워지는 관계 드라마.
 
 ### [월급날 이후 →](college-drama/README.md)
 
