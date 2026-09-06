@@ -1,26 +1,6 @@
-export type Line = {
-  speaker?: string
-  text: string
-  kind?: "say" | "think"
-}
+import type { EpisodeMeta, Panel } from "./types"
 
-export type ChatLine = {
-  from: "me" | "other"
-  name: string
-  text: string
-}
-
-export type Panel = {
-  id: string
-  image: string
-  alt: string
-  time?: string
-  label?: string
-  wide?: boolean
-  notice?: { kicker: string; title: string; lines: string[] }
-  chat?: ChatLine[]
-  lines: Line[]
-}
+export type { ChatLine, Line, Panel } from "./types"
 
 export const series = {
   title: "누군가의 봄",
@@ -30,10 +10,11 @@ export const series = {
     "성인 웹툰. 장애인의 성인권 보조 봉사를 다루며, 행위는 직접 그리지 않고 표정·손·옷깃으로만 보여 줍니다.",
 }
 
-export const episode1 = {
+export const episode1: EpisodeMeta = {
   number: 1,
   title: "처음 하는 일",
-  next: { number: 2, title: "흔들리는 손" },
+  href: "/spring/1",
+  next: { number: 2, title: "흔들리는 손", href: "/" },
 }
 
 export const panels: Panel[] = [

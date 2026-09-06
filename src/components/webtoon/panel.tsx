@@ -1,5 +1,5 @@
 import Image from "next/image"
-import type { Panel as PanelData } from "@/data/episode-1"
+import type { Panel as PanelData } from "@/data/types"
 import { cn } from "@/lib/utils"
 
 export function Panel({ panel }: { panel: PanelData }) {

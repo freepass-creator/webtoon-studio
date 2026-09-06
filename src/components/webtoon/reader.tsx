@@ -1,10 +1,17 @@
 import Link from "next/link"
 import { buttonVariants } from "@/components/ui/button"
-import { episode1, panels, series } from "@/data/episode-1"
+import { series } from "@/data/episode-1"
+import type { EpisodeMeta, Panel as PanelData } from "@/data/types"
 import { cn } from "@/lib/utils"
 import { Panel } from "./panel"
 
-export function EpisodeReader() {
+export function EpisodeReader({
+  episode,
+  panels,
+}: {
+  episode: EpisodeMeta
+  panels: PanelData[]
+}) {
   return (
     <div className="min-h-dvh bg-[#f6f1ea] text-stone-800">
       <header className="sticky top-0 z-10 border-b border-stone-200/80 bg-[#f6f1ea]/90 backdrop-blur-md">
@@ -14,7 +21,7 @@ export function EpisodeReader() {
           </Link>
           <p className="text-[13px] font-medium tracking-wide">
             {series.title}
-            <span className="ml-2 text-stone-400">EP.{episode1.number}</span>
+            <span className="ml-2 text-stone-400">EP.{episode.number}</span>
           </p>
           <span className="w-10" />
         </div>
@@ -28,9 +35,7 @@ export function EpisodeReader() {
           <h1 className="font-serif text-[34px] leading-tight font-medium tracking-tight">
             {series.title}
           </h1>
-          <p className="font-serif text-[18px] text-stone-600">
-            {episode1.title}
-          </p>
+          <p className="font-serif text-[18px] text-stone-600">{episode.title}</p>
           <p className="text-[13px] leading-6 text-stone-500">{series.logline}</p>
         </section>
 
@@ -39,12 +44,19 @@ export function EpisodeReader() {
         ))}
 
         <footer className="mt-4 flex flex-col gap-4 border-t border-stone-200 pt-8">
-          <p className="font-serif text-[16px] leading-7 text-stone-600">
-            {series.logline}
-          </p>
-          <p className="text-[13px] text-stone-400">
-            다음 화 · EP.{episode1.next.number} {episode1.next.title}
-          </p>
+          {episode.next && (
+            <p className="text-[13px] text-stone-400">
+              다음 화 · EP.{episode.next.number} {episode.next.title}
+            </p>
+          )}
+          {episode.next?.href && episode.next.href !== "/" ? (
+            <Link
+              href={episode.next.href}
+              className={cn(buttonVariants({ size: "lg" }), "w-full")}
+            >
+              EP.{episode.next.number} 이어 보기
+            </Link>
+          ) : null}
           <Link
             href="/"
             className={cn(buttonVariants({ variant: "outline", size: "lg" }), "w-full")}

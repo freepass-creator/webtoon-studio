@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { EpisodeReader } from "@/components/webtoon/reader"
-import { episode1, series } from "@/data/episode-1"
+import { episode1, panels, series } from "@/data/episode-1"
 
 export const metadata: Metadata = {
   title: `${series.title} EP.${episode1.number} ${episode1.title}`,
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 }
 
 export default function EpisodeOnePage() {
-  return <EpisodeReader />
+  return <EpisodeReader episode={episode1} panels={panels} />
 }

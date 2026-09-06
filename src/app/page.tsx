@@ -2,7 +2,11 @@ import Image from "next/image"
 import Link from "next/link"
 import { buttonVariants } from "@/components/ui/button"
 import { episode1, series } from "@/data/episode-1"
+import { episode8 } from "@/data/episode-8"
+import { episode9 } from "@/data/episode-9"
 import { cn } from "@/lib/utils"
+
+const episodes = [episode1, episode8, episode9]
 
 export default function HomePage() {
   return (
@@ -33,18 +37,25 @@ export default function HomePage() {
             연애가 아니다. 스스로 닿지 못하는 사람들에게, 필요한 만큼만 손을
             빌려 주는 봉사다.
           </p>
-          <p>
-            사람을 사랑하지 않는다. 그런데 그 활동이, 점점 남아 있다.
-          </p>
+          <p>사람을 사랑하지 않는다. 그런데 그 활동이, 점점 남아 있다.</p>
           <p className="text-[12px] leading-6 text-stone-400">{series.warning}</p>
         </section>
 
-        <Link
-          href="/spring/1"
-          className={cn(buttonVariants({ size: "lg" }), "mt-8 w-full")}
-        >
-          EP.{episode1.number} {episode1.title} 보기
-        </Link>
+        <ol className="mt-8 flex flex-col gap-2">
+          {episodes.map((ep) => (
+            <li key={ep.number}>
+              <Link
+                href={ep.href}
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "lg" }),
+                  "w-full justify-start"
+                )}
+              >
+                EP.{ep.number} {ep.title}
+              </Link>
+            </li>
+          ))}
+        </ol>
       </main>
     </div>
   )
