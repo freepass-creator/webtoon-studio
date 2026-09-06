@@ -1,6 +1,14 @@
 # 공통 캐스팅 템플릿
 
-## 정식 기준 · v2
+## 현재 최종 기준 · 한 장짜리 바디 프로필
+
+- [`CASTING-BODY-v2.0` 실제 배우 없는 샘플](CASTING-BODY-SAMPLE.md)
+- `body-profile-sample-v2.png` — GitHub 바로보기용 2400 × 3200픽셀 샘플
+- `body-profile-sample-v2.svg` — 사진 교체와 수치 입력용 편집 원본
+
+공식 캐스팅 자료는 배우 한 명당 `body-profile.png` 한 장이다. 동일 배우의 정면·정확한 측면·후면, 0~200센티미터 눈금, 후보명, 나이·키·몸무게를 한 장에 넣는다.
+
+## 보존 자료 · 6장 캐스팅 도시에는
 
 - [`v2/CASTING-TEMPLATES.md`](v2/CASTING-TEMPLATES.md) — 배우 한 명당 6장 전체 바로보기
 - `v2/casting-dossier-v2-01-overview.*` — 전체 프로필
@@ -10,7 +18,7 @@
 - `v2/casting-dossier-v2-05-movement.*` — 동작·자세
 - `v2/casting-dossier-v2-06-chemistry.*` — 상대역 합
 
-신규 후보와 최종 승인본은 `CASTING-ABS-v2.0`을 사용한다. 모든 페이지는 2400 × 3200픽셀이며 페이지 02·04·06의 신체 비교 구간은 1cm=10픽셀, 바닥 y=2410픽셀로 고정한다.
+이 자료는 이전의 확장형 캐스팅 검토 양식이다. 신규 후보의 공식 화면에는 사용하지 않으며, 사용자가 얼굴·의상·동작·상대역 시험을 별도로 요청한 경우에만 참고한다.
 
 ## 보존 자료 · v1
 
