@@ -1,38 +1,25 @@
 [← 월급날 이후](README.md)
 
-# 월급날 이후 — 캐스팅
+# 월급날 이후 — 주인공 캐스팅
 
-> 사진을 누르면 원본 크기로 열립니다.
+> 배우마다 한 장짜리 수영복 바디 프로필로 비교합니다. 사진을 누르면 원본 크기로 열립니다.
 
 ## 후보 01 · 한서윤
 
 **29세 · 168센티미터 · 55킬로그램 · 건강하게 단련된 배우 체형 · 검토 중**
 
-[![한서윤 대표 프로필](characters/candidates/OFFICE-01/representative-profile.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/OFFICE-01/representative-profile.jpg)
+[![후보 01 한서윤 수영복 바디 프로필](characters/candidates/OFFICE-01/body-profile.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/OFFICE-01/body-profile.png)
 
-### [한서윤 전체 시험표 한 번에 보기 →](characters/candidates/OFFICE-01/README.md)
+### [한서윤 한 장 크게 보기 →](characters/candidates/OFFICE-01/README.md)
 
 ---
 
 ## 이전 비교 후보
 
-## BODY-01
+기존 BODY-01과 NO-03은 새 단일 바디 프로필 규격으로 다시 촬영하기 전까지 기록으로 보존합니다.
 
-**29세 · 168cm · 55kg · 건강하고 탄력 있는 배우 체형**
-
-[![BODY-01 전신 및 얼굴 비교](characters/candidates/BODY-01/body-turnaround.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/BODY-01/body-turnaround.jpg)
-
-[얼굴 기준사진 크게 보기](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/BODY-01/face-reference.jpg) · [설정표 보기](characters/candidates/BODY-01/profile.md)
-
----
-
-## NO-03
-
-**29세 · 167cm · 55kg · 부드러운 인상을 유지한 탄력 체형**
-
-[![NO-03 전신 및 얼굴 비교](characters/candidates/NO-03/body-turnaround.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/NO-03/body-turnaround.jpg)
-
-[얼굴 기준사진 크게 보기](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/college-drama/characters/candidates/NO-03/face-reference.jpg) · [설정표 보기](characters/candidates/NO-03/profile.md)
+- [BODY-01 기존 설정표](characters/candidates/BODY-01/profile.md)
+- [NO-03 기존 설정표](characters/candidates/NO-03/profile.md)
 
 ---
 
