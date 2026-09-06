@@ -8,7 +8,7 @@
 
 공식 캐스팅 자료는 배우 한 명당 `body-profile.png` 한 장이다. 동일 배우의 정면·정확한 측면·후면, 0~200센티미터 눈금, 후보명, 나이·키·몸무게를 한 장에 넣는다.
 
-## 보존 자료 · 6장 캐스팅 도시에는
+## 보존 자료 · 6장 확장형 캐스팅 파일
 
 - [`v2/CASTING-TEMPLATES.md`](v2/CASTING-TEMPLATES.md) — 배우 한 명당 6장 전체 바로보기
 - `v2/casting-dossier-v2-01-overview.*` — 전체 프로필
