@@ -1,9 +1,12 @@
 # 캐스팅 규격
 
-> 이 문서는 조선 궁중극의 배역별 추가 조건을 정한다. 캔버스·키 눈금·배율·기준선·필수 파일은 루트 `../../CASTING-STANDARD.md`의 `CASTING-ABS-v1.0`이 우선한다.
+> 이 문서는 조선 궁중극의 배역별 추가 조건을 정한다. 캔버스·키 눈금·배율·기준선·필수 파일은 루트 `../../CASTING-STANDARD.md`의 `CASTING-ABS-v2.0`이 우선한다.
+>
+> 정식 결과는 `../../assets/casting/v2/`의 01 전체 프로필부터 06 상대역 합까지 6장으로 만든다.
 
 ## 1단계 · 얼굴
 
+- `../../assets/casting/v2/casting-dossier-v2-03-face-expression.png`의 구성을 사용
 - 정면, 좌우 45도, 정확한 측면
 - 무표정, 옅은 미소, 경계, 분노, 욕망을 숨기는 표정
 - 같은 얼굴·헤어·조명·렌즈 느낌 유지
@@ -11,7 +14,7 @@
 
 ## 2단계 · 체형
 
-- `../../assets/casting/casting-profile-template-v1.png`의 0~200cm 숫자 눈금과 절대 배율을 사용
+- `../../assets/casting/v2/casting-dossier-v2-02-body-scale.png`의 0~200cm 숫자 눈금과 절대 배율을 사용
 
 - 머리부터 발끝까지 정면·측면·후면 전신
 - 같은 의상, 같은 배율, 같은 중립 자세
@@ -20,7 +23,7 @@
 
 ## 3단계 · 복식
 
-- `../../assets/casting/costume-test-template-v1.png`를 사용하고 LOOK 01~03의 배율을 동일하게 고정
+- `../../assets/casting/v2/casting-dossier-v2-04-costume.png`를 사용하고 의상 4종의 배율과 바닥선을 동일하게 고정
 
 - 평상 궁중복
 - 공식 의례복
@@ -30,6 +33,7 @@
 
 ## 4단계 · 연기와 관계
 
+- `../../assets/casting/v2/casting-dossier-v2-05-movement.png`와 `casting-dossier-v2-06-chemistry.png`의 구성을 사용
 - 단독 클로즈업
 - 왕–왕비, 왕–후궁, 왕–궁녀의 2인 테스트
 - 촛불 아래 대화, 문틈의 시선, 손을 뻗기 직전, 돌아서는 순간
