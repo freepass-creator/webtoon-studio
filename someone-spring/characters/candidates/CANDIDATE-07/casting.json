@@ -1,11 +1,11 @@
 {
-  "template": "CASTING-ABS-v1.0",
-  "canvas_px": [2400, 3200],
-  "scale_px_per_cm": 10,
-  "floor_y_px": 2300,
+  "template": "CASTING-BODY-v2.0",
+  "candidate_code": "CANDIDATE-07",
+  "display_name": "윤하린",
+  "canvas_px": [1024, 1536],
   "height_cm": 165,
-  "body_height_px": 1650,
   "weight_kg": "52-53",
-  "views": ["front", "left-profile", "back"],
-  "status": "reference-selected-assets-pending"
+  "views": ["front", "exact-profile", "back"],
+  "official_image": "body-profile.png",
+  "status": "cast-as-female-lead"
 }
