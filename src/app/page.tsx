@@ -45,7 +45,13 @@ export default function HomePage() {
           {episodes.map((ep) => (
             <li key={ep.number}>
               <Link
-                href={ep.href}
+                href={
+                  ep.number === 8
+                    ? "/webtoons/someone-spring/ep08.html"
+                    : ep.number === 9
+                      ? "/webtoons/someone-spring/ep09.html"
+                      : ep.href
+                }
                 className={cn(
                   buttonVariants({ variant: "outline", size: "lg" }),
                   "w-full justify-start"
