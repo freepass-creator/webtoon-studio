@@ -4,45 +4,181 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>누군가의 봄 EP.9 더 깊어지는 관계</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
+    :root { --paper:#111; --card:#161616; --ink:#f3eee6; --mute:#b9b0a6; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #111;
-    }
-    .page {
-      max-width: 430px;
-      margin: 0 auto;
-      background: #0b0b0b;
-    }
-    .page img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-    .nav {
-      padding: 12px 14px;
-      background: #0b0b0b;
-      font: 13px/1.4 system-ui, sans-serif;
-    }
-    .nav a { color: #cfcfcf; text-decoration: none; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:"Noto Sans KR",sans-serif; }
+    .page { max-width:430px; margin:0 auto; padding:16px 12px 72px; }
+    .series { font-family:"Nanum Pen Script",cursive; font-size:40px; margin:8px 0 0; }
+    .series em { color:#e56b8e; font-style:normal; }
+    .ep { color:var(--mute); margin:4px 0 18px; font-size:14px; }
+    .panel { margin:0 0 26px; }
+    .label { font-size:12px; letter-spacing:.12em; color:#8d8680; margin:0 0 8px; }
+    .frame { position:relative; background:#222; overflow:hidden; }
+    .frame img { display:block; width:100%; height:auto; }
+    .bubbles { position:absolute; right:10px; bottom:18px; display:flex; flex-direction:column; align-items:flex-end; gap:7px; max-width:78%; }
+    .bubble { background:#fff; color:#1b1612; border-radius:15px; padding:7px 10px; font-size:13px; line-height:1.45; }
+    .who { display:block; font-size:10px; color:#8a8178; }
+    .narr { margin:10px 2px 0; font-size:13.5px; line-height:1.75; color:#ddd6cc; }
+    a { color:#cfcfcf; font-size:13px; text-decoration:none; }
   </style>
 </head>
 <body>
-  <main class="page">
-    <nav class="nav"><a href="./index.html">← 목록</a></nav>
-    <img src="ep09/scene-00-title.png" alt="표지 EP.9 더 깊어지는 관계" />
-    <img src="ep09/scene-01.png" alt="1. 기다리고 있는 그녀" />
-    <img src="ep09/scene-02.png" alt="2. 가까워지는 거리" />
-    <img src="ep09/scene-03.png" alt="3. 더 과감해진 그녀" />
-    <img src="ep09/scene-04.png" alt="4. 서로에게 집중하는 시간" />
-    <img src="ep09/scene-05.png" alt="5. 휠체어에서" />
-    <img src="ep09/scene-06.png" alt="6. 끝이 아닌, 여운" />
-    <img src="ep09/scene-07.png" alt="7. 샤워 후" />
-    <img src="ep09/scene-08.png" alt="8. 다음 날 아침" />
-    <img src="ep09/scene-09.png" alt="9. 혼자 남은 그녀" />
-    <img src="ep09/scene-10.png" alt="10. 다음을 기대하며" />
-    <img src="ep09/scene-11-end.png" alt="EP.10 멈출 수 없는 마음" />
-  </main>
+<main class="page">
+  <a href="./index.html">← 목록</a>
+  <p class="series">누군가의 <em>봄</em></p>
+  <p class="ep">EP.9 더 깊어지는 관계</p>
+
+  <article class="panel">
+    <div class="frame">
+      <img src="ep09-remake/r09-00-title.png" alt="서윤" />
+      <div class="bubbles"><div class="bubble"><span class="who">서윤</span>…오늘도 …괜찮을까요?</div></div>
+    </div>
+    <p class="narr">선은 이미 한 번 무너졌다. 이제는, 서로를 조금 더 원하고 있었다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">중간 · 오는 길</p>
+    <div class="frame"><img src="ep09-remake/r09-00b-hall.png" alt="복도" /></div>
+    <p class="narr">초인종을 누르기 전에  destin을 고친다. 늦었다는 걸, 복도에서 이미 안다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">중간 · 문 앞</p>
+    <div class="frame"><img src="ep09-remake/r09-01-arrive.png" alt="도착" /></div>
+    <p class="narr">그는 자연스럽게 이 방을 찾는다. 나는 문을 열어 두고 기다렸다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">1. 기다리고 있는 그녀</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-02-wait.png" alt="기다리는 서윤" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>왔어… 늦었네.</div>
+        <div class="bubble"><span class="who">민재</span>오래 기다렸어?</div>
+        <div class="bubble"><span class="who">서윤</span>…응. 계속 생각했어.</div>
+      </div>
+    </div>
+    <p class="narr">이제는 어색하지 않다. 그는 자연스럽게 내 방을 찾고, 나는 자연스럽게 그를 기다린다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">2. 가까워지는 거리</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-03-talk.png" alt="이야기" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>…오늘은 내가 먼저 해도 될까?</div>
+        <div class="bubble"><span class="who">민재</span>…그래. 네가 하고 싶은 대로.</div>
+        <div class="bubble"><span class="who">서윤</span>…정말?</div>
+      </div>
+    </div>
+    <p class="narr">조심히 다가가던 길은, 이제 망설임이 없다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">중간 · 자리에서 일어나</p>
+    <div class="frame"><img src="ep09-remake/r09-04-approach.png" alt="다가감" /></div>
+    <p class="narr">말은 이미 했다. 이제 몸이 먼저 움직인다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">3. 더 과감해진 그녀</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-05-hold.png" alt="안기" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>…하아…</div>
+        <div class="bubble"><span class="who">민재</span>…괜찮아? 무리하지 마.</div>
+        <div class="bubble"><span class="who">서윤</span>나… 더 하고 싶어…</div>
+      </div>
+    </div>
+    <p class="narr">처음엔 조심스러웠지만, 이제는 먼저 다가간다. 그의 반응에 맞춰, 더 깊이 빠진다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">4. 서로에게 집중하는 시간</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-06-face.png" alt="표정" />
+      <div class="bubbles"><div class="bubble"><span class="who">서윤</span>…좋아… 나… 이제 괜찮아… 더… 해줘…</div></div>
+    </div>
+    <p class="narr">처음엔 숨소리만 방을 채운다. 이제 말보다 손이 많다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">중간 · 손이 멈추는 선</p>
+    <div class="frame"><img src="ep09-remake/r09-08-sheet.png" alt="시트" /></div>
+    <p class="narr">행위는 여기까지다. 시트가 접히고, 숨만 조금 거칠어진다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">5. 휠체어에서</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-07-chair.png" alt="휠체어" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>이렇게… 해도 돼?</div>
+        <div class="bubble"><span class="who">민재</span>…응. 고마워.</div>
+      </div>
+    </div>
+    <p class="narr">그의 불편한 몸은 이제 둘에게 장애가 아니다. 오히려 서로를 더 애타게 만든다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">6. 끝이 아닌, 여운</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-09-after.png" alt="여운" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>오늘도… 너무 좋았어. 나만 이렇게 좋아해도… 되는 거야?</div>
+        <div class="bubble"><span class="who">민재</span>…괜찮아. 너도 좋잖아.</div>
+      </div>
+    </div>
+    <p class="narr">모든 것이 끝난 뒤에도 그녀는 오래 그 자리에 머문다. 이젠 끝이 아니라 다음이다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">7. 샤워 후</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-10-shower.png" alt="샤워 후" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>…같이 씻을래?</div>
+        <div class="bubble"><span class="who">민재</span>…응.</div>
+      </div>
+    </div>
+    <p class="narr">낯설었던 처음과 달리, 이제는 모든 것이 자연스럽다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">8. 다음 날 아침</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-11-morning.png" alt="아침" />
+      <div class="bubbles">
+        <div class="bubble"><span class="who">서윤</span>…벌써 가? …또 올 거지?</div>
+        <div class="bubble"><span class="who">민재</span>응. 이번엔… 내가 먼저 연락할게.</div>
+      </div>
+    </div>
+    <p class="narr">짧은 밤이었지만, 이제 둘은 서로를 더 원하게 되었다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">9. 혼자 남은 그녀</p>
+    <div class="frame">
+      <img src="ep09-remake/r09-12-alone.png" alt="혼자" />
+      <div class="bubbles"><div class="bubble"><span class="who">서윤</span>…벌써 보고 싶다…</div></div>
+    </div>
+    <p class="narr">그가 돌아간 뒤에도 마음은 쉽게 가라앉지 않는다. 이제 그는 단순한 고객이 아니다.</p>
+  </article>
+
+  <article class="panel">
+    <p class="label">10. 다음을 기대하며</p>
+    <div class="frame"><img src="ep09-remake/r09-13-phone.png" alt="메시지" /></div>
+    <p class="narr">조금씩, 깊어지는 관계. 누구의 잘못도 아닌, 두 사람의 선택이었다.</p>
+  </article>
+
+  <article class="panel">
+    <div class="frame"><img src="ep09-remake/r09-14-city.png" alt="밤 도시" /></div>
+    <p class="series">누군가의 <em>봄</em></p>
+    <p class="ep">EP.10 멈출 수 없는 마음</p>
+    <p class="narr">이제, 우리는 조금 더 솔직해진다.</p>
+  </article>
+</main>
 </body>
 </html>
