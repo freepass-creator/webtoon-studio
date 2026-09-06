@@ -24,3 +24,9 @@ npm run dev -- --port 43217
 - `webtoons/someone-spring/ep08/scene-*.png` — EP.8 콘티에서 자른 칸
 - `webtoons/someone-spring/ep09/scene-*.png` — EP.9 콘티에서 자른 칸
 - `public/webtoons/someone-spring/` — 같은 파일을 브라우저로 제공
+
+## Studio projects
+
+- [누군가의 봄](./someone-spring/) — 연재 자료
+- [College Drama](./college-drama/) — 현대극 캐스팅 진행
+- [Joseon Palace Drama](./joseon-palace-drama/) — 조선 초기풍 궁중 밀회극, 콘셉트 개발 중
