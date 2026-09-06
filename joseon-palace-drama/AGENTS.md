@@ -43,11 +43,8 @@
 
 ```text
 joseon-palace-drama/characters/candidates/COURTLADY-01/
-  face-reference.jpg
-  body-turnaround.jpg
-  costume-test.jpg
-  expression-test.jpg
-  chemistry-test.jpg
+  body-profile.png
+  README.md
   profile.md
   prompt.md
 ```
@@ -55,12 +52,17 @@ joseon-palace-drama/characters/candidates/COURTLADY-01/
 - 승인 전 후보와 확정 캐릭터를 분리한다.
 - 확정 후보만 `characters/main/<역할명>/`에 복사하고 캐릭터 바이블을 만든다.
 - 이미지 생성에 사용한 최종 프롬프트와 변형 이력을 `prompt.md`에 기록한다.
+- 기존 얼굴·표정·복식·관계 테스트는 기록으로 보존할 수 있지만 후보 `README.md`에는 펼치지 않는다.
 - 신분별 복식·가체·장신구·침전 소품은 `references/`의 근거와 함께 관리한다.
 - 에피소드 제작 시 확정 캐릭터 바이블을 최우선 정체성 레퍼런스로 사용한다.
 
-## 공통 절대척도 적용
+## 공통 바디 프로필 적용
 
-- 모든 캐스팅은 루트 `../CASTING-STANDARD.md`의 `CASTING-ABS-v2.0`을 최우선으로 따른다.
-- 공통 6장 템플릿과 바로보기는 `../assets/casting/v2/`에 있으며 프로젝트별로 새 배율이나 새 캔버스를 만들지 않는다.
-- 사극 캐스팅복은 미색 가슴싸개와 속바지를 사용할 수 있으나 같은 배역군 후보에게 형태·길이·색을 동일하게 적용한다.
-- 현재의 생성형 전신 시안은 후보 탐색용이다. 확정 전에는 01 전체 프로필, 02 절대척도 체형, 03 얼굴·표정, 04 의상, 05 동작, 06 상대역 합의 v2 파일을 순서대로 추가한다.
+- 모든 캐스팅은 루트 [`CASTING-STANDARD.md`](../CASTING-STANDARD.md)의 `CASTING-BODY-v2.0`을 최우선으로 따른다.
+- `characters/CASTING.md`는 특정 배우 페이지가 아니라 작품 전체 캐스팅 보드다. 새 캐릭터와 배우 후보를 모두 이 보드에 누적한다.
+- 후보별 `README.md`는 해당 배우의 한 장짜리 프로필만 보여주는 하위 페이지로 사용한다.
+- 공식 캐스팅 결과는 후보 한 명당 `body-profile.png` 한 장이다.
+- 정면·정확한 옆면·뒷면은 0~200cm 절대 눈금과 0cm 바닥선을 공유한다.
+- 공통 촬영복은 불투명 흰색 운동용 크롭 래시가드와 흰색 수영 쇼츠로 통일한다.
+- 얼굴·표정·복식·동작·상대역 호흡 시험은 사용자가 별도로 요청할 때만 추가한다.
+- 후보 프로필 제작은 캐스팅 확정을 뜻하지 않는다. 사용자가 명시적으로 승인하기 전에는 모든 후보 상태를 `검토 중`으로 유지한다.

@@ -89,3 +89,56 @@ Precision costume-texture edit on this professional webtoon character model shee
 - 하의 길이는 허벅지 상부에서 끝나는 짧은 형태로 줄이고 다리에는 천 띠가 이어지지 않게 했다.
 - 하의 표면을 가슴싸개와 같은 겹친 리넨 띠 구조로 통일했다.
 - 생성 시 들어간 임시 표기 위에 `COURTLADY-01 · AGE 24 · HEIGHT 165 CM · WEIGHT 51 KG · BODY TURNAROUND V3`를 정확히 표기했다.
+
+## 2026-09-07 · 공식 바디 프로필
+
+- 결과 파일: `body-profile.png`
+- 용도: 배우 후보 간 얼굴·체격·신체 비율을 비교하는 한 장짜리 공식 캐스팅 보드
+- 공통 규격: `CASTING-BODY-v2.0`
+- 잠정 수치: 24세 · 165cm · 51kg
+- 상태: 캐스팅 검토 중 · 미확정
+- 생성 방식: 동일 인물 3면 사진 생성 후 절대 눈금과 정확한 한글 정보를 결정론적으로 합성
+
+## 최종 사진 생성 프롬프트
+
+```text
+Use case: identity-preserve
+Asset type: text-free photographic source for a standardized one-page premium Korean entertainment-agency body casting board.
+
+Input images: Image 1 is the primary facial identity reference. Image 2 is the body-proportion and exact three-view reference. Preserve the same fictional adult Korean woman, explicitly age 24, 165 cm, 51 kg, with natural facial features, realistic healthy slender proportions, and consistent skin tone. Remove all historical hair ornaments and decorative accessories. Keep her dark hair neatly and simply secured in a low braided bun so the neck, shoulders, and body outline remain readable.
+
+Primary request: recreate the exact same adult actress in exactly three aligned full-body views at identical scale: straight front, exact 90-degree right-facing side profile, and straight back.
+
+Standard casting wardrobe: the identical opaque pure-white athletic two-piece in all three views: a fully lined, logo-free, high-neck fitted crop rashguard top with wide shoulder coverage and no cleavage, plus matching opaque fitted swim shorts with a modest upper-thigh length. Neutral professional fit-testing wardrobe, nontransparent, no lingerie styling, no jewelry, no shoes. Bare feet.
+
+Scene/backdrop: seamless uniform light warm-gray agency studio, completely clean, no ruler, no grid, no props, no words.
+
+Style/medium: premium near-photoreal live-action Korean agency casting photography; realistic unretouched skin; accurate white technical fabric; understated, high-end portfolio quality.
+
+Composition/framing: wide landscape contact sheet with exactly three equal bays and generous equal spacing. Whole head through bare feet visible. Each body has exactly equal height and scale. Level 85 mm lens feel, camera at waist height, flat soft studio light, minimal perspective distortion.
+
+Pose/expression: neutral professional expression and upright posture, arms relaxed slightly away from torso, feet parallel, no contrapposto, no fashion pose.
+
+Constraints: clearly adult; exact same woman in all three bays; identical face, body proportions, hairstyle, garment, lighting and scale; exact front / exact side / exact back; no text, numbers, labels, logo, border, watermark, ruler, grid, extra inset or props; no cropped body parts; anatomically correct hands and feet.
+
+Avoid: three-quarter view, different women, identity drift, erotic framing, transparent fabric, lingerie styling, cleavage, fashion pose, historical costume, hair ornaments, background markings, extra limbs, distorted hands or feet.
+```
+
+## 합성 규격
+
+- 마스터 캔버스: 2400 × 3200px · 세로 3:4
+- 절대 눈금: 0~200cm · 마스터 기준 1cm = 10px
+- 200cm선: y=430px
+- 165cm선 및 정수리: y=780px
+- 0cm 바닥선 및 발바닥: y=2430px
+- 전신 높이: 각 1650px
+- 보기 순서: 정면 · 정확한 90도 옆면 · 뒷면
+- 공식 하단 정보: 나이 · 키 · 몸무게
+- 공식 파일은 GitHub 표시 성능을 위해 1600 × 2133px PNG로 내보내되 모든 좌표와 비율은 마스터에서 동일 비율로 축소한다.
+
+## 변형 이력
+
+- 이전의 미색 사극 속옷형 시안은 보관 자료로 유지했다.
+- 루트 공통 규격에 맞춰 로고·장식이 없는 불투명 흰색 운동용 크롭 래시가드와 흰색 수영 쇼츠로 통일했다.
+- 이미지 생성 단계에는 글자와 눈금을 넣지 않고, 최종 단계에서 한글 제목·0~200cm 눈금·165cm선·수치를 정확하게 합성했다.
+- 이 작업에는 스토리보드, 콘티 또는 서사 구성이 포함되지 않는다.
