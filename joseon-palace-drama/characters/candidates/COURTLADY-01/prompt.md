@@ -64,28 +64,28 @@ Constraints: clearly adult; preserve the woman's identity from the reference; ob
 
 ## 2026-09-06 · 전신 체형 테스트 03
 
-- 결과 파일: \`body-turnaround-v3.jpg\`
+- 결과 파일: `body-turnaround-v3.jpg`
 - 용도: 허벅지까지 이어진 천 감개를 줄인 정면·정측면·후면 비교
-- 기준 이미지: \`chemistry-test.jpg\`의 \`COURTLADY-01\`
+- 기준 이미지: `chemistry-test.jpg`의 `COURTLADY-01`
 - 잠정 수치: 24세 · 165cm · 51kg
 - 상태: 3차 후보 · 미확정
 - 생성 방식: 내장 이미지 생성 및 의상 재질 정밀 수정 후 공식 수치 표기
 
 ## 생성 프롬프트
 
-\`\`\`text
+```text
 Create a polished Korean webtoon production model sheet for this same fictional adult woman, age 24. Preserve her recognizable face, braided updo, hair ornaments, and graceful proportions, translated into refined semi-realistic webtoon linework and flat color rather than photography. Show three aligned full-body views at equal scale: front, exact side profile, and back. Neutral upright stance, arms relaxed, objective anatomy-and-costume reference on a pale gray measurement-grid backdrop. She wears an opaque ivory wrapped-cloth practice costume: a secure bandeau-style linen top and compact fitted high-waisted wrap shorts with a short standard stage-costume cut, fully lined and nontransparent. The layered linen-strip texture stays on the garments only; the legs remain visually unobstructed. Bare feet. Balanced studio lighting, clean character-design board, non-erotic presentation.
-\`\`\`
+```
 
 ## 재질 수정 프롬프트
 
-\`\`\`text
+```text
 Precision costume-texture edit on this professional webtoon character model sheet. Keep the adult age-24 character, anatomy, face, hair, all three poses, garment silhouettes, garment coverage, layout, labels, detail panels, background grid, and colors unchanged. Edit only the textile construction of the ivory lower shorts in the front, side, back, and shorts-detail panels: make them visibly constructed from many snug, overlapping horizontal linen cloth strips, matching the wrapped-bandage craftsmanship of the chest top. The bands should read as practical hand-wrapped cloth with subtle seams and layered edges, while remaining fully opaque, secure, smooth-fitting, and the exact same short length and coverage as the current shorts. Preserve the waist sash. Objective non-erotic costume-design reference; no other changes.
-\`\`\`
+```
 
 ## 변형 이력
 
 - 사진형 수정안 대신 동일 후보를 반실사 웹툰 캐릭터 시트로 재구성했다.
 - 하의 길이는 허벅지 상부에서 끝나는 짧은 형태로 줄이고 다리에는 천 띠가 이어지지 않게 했다.
 - 하의 표면을 가슴싸개와 같은 겹친 리넨 띠 구조로 통일했다.
-- 생성 시 들어간 임시 표기 위에 \`COURTLADY-01 · AGE 24 · HEIGHT 165 CM · WEIGHT 51 KG · BODY TURNAROUND V3\`를 정확히 표기했다.
+- 생성 시 들어간 임시 표기 위에 `COURTLADY-01 · AGE 24 · HEIGHT 165 CM · WEIGHT 51 KG · BODY TURNAROUND V3`를 정확히 표기했다.
