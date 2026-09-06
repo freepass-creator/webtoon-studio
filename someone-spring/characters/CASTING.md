@@ -10,7 +10,7 @@
 - 배역: 23세 여대생
 - 키·체중: 165cm, 52~53kg
 - 인상: 자연스럽고 선한 인상
-- 상태: 여자 주인공 가상 배우로 캐스팅 확정
+- 상태: 여자 주인공 캐스팅 후보 · 프로필 검토 중
 
 [![후보 07 윤하린 수영복 바디 프로필](candidates/CANDIDATE-07/body-profile.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/characters/candidates/CANDIDATE-07/body-profile.png)
 
