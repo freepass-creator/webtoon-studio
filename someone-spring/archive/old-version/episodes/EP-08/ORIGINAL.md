@@ -1,14 +1,12 @@
-[← 이전 버전 보관함](../../README.md) · [원본 배열만 보기](ORIGINAL.md)
+[← 보강 감상본](README.md) · [이전 버전 보관함](../../README.md)
 
-# EP.08 조금씩, 선이 흐려진다
+# EP.08 원본 배열
 
-기존 컷과 대사는 그대로 두고, 생략된 동선과 시간 흐름을 잇는 무대사 컷 5장만 추가한 보강 감상본.
+기존 14컷을 추가·삭제·교체 없이 그대로 보는 화면.
 
 [![누군가의 봄 EP.08 컷 00](scene-00-title.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-00-title.png)
 
 [![누군가의 봄 EP.08 컷 01](scene-01.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-01.png)
-
-[![누군가의 봄 EP.08 보강 연결컷 01A](insert-01a.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/insert-01a.jpg)
 
 [![누군가의 봄 EP.08 컷 02](scene-02.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-02.png)
 
@@ -16,23 +14,15 @@
 
 [![누군가의 봄 EP.08 컷 04](scene-04.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-04.png)
 
-[![누군가의 봄 EP.08 보강 연결컷 04A](insert-04a.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/insert-04a.jpg)
-
 [![누군가의 봄 EP.08 컷 05](scene-05.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-05.png)
 
 [![누군가의 봄 EP.08 컷 06](scene-06.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-06.png)
-
-[![누군가의 봄 EP.08 보강 연결컷 06A](insert-06a.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/insert-06a.jpg)
 
 [![누군가의 봄 EP.08 컷 07](scene-07.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-07.png)
 
 [![누군가의 봄 EP.08 컷 08](scene-08.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-08.png)
 
-[![누군가의 봄 EP.08 보강 연결컷 08A](insert-08a.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/insert-08a.jpg)
-
 [![누군가의 봄 EP.08 컷 09](scene-09.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-09.png)
-
-[![누군가의 봄 EP.08 보강 연결컷 09A](insert-09a.jpg)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/insert-09a.jpg)
 
 [![누군가의 봄 EP.08 컷 10](scene-10.png)](https://raw.githubusercontent.com/freepass-creator/webtoon-studio/main/someone-spring/archive/old-version/episodes/EP-08/scene-10.png)
 
@@ -44,4 +34,4 @@
 
 ---
 
-[← 이전 버전 보관함](../../README.md) · [원본 배열만 보기](ORIGINAL.md) · [EP.09 더 깊어지는 관계 →](../EP-09/README.md)
+[← 보강 감상본](README.md) · [이전 버전 보관함](../../README.md)
