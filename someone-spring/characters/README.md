@@ -9,13 +9,12 @@
 
 ## 캐스팅
 
-- [캐스팅 현황](CASTING.md)
-- [여자 주인공 후보 07 · 윤하린](candidates/CANDIDATE-07/README.md)
+- [전체 캐스팅 보드](CASTING.md) — 모든 배역과 등록 후보를 한곳에서 관리
 
 ## 폴더
 
 - `roles/`: 이야기 속 배역 기준
-- `candidates/`: 후보별 한 장짜리 수영복 바디 프로필
+- `candidates/`: 캐릭터별 배우 후보의 한 장짜리 수영복 바디 프로필
 - `main/`: 최종 확정된 캐릭터 바이블
 - `costumes/`: 확정 캐릭터의 회차별 의상
 

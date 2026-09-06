@@ -7,7 +7,8 @@
 ## 작품 관리
 
 - [작품 설정](series-bible.md)
-- [캐릭터·캐스팅](characters/README.md)
+- [캐릭터 관리](characters/README.md)
+- [전체 캐스팅 보드](characters/CASTING.md)
 - [회차 관리](episodes/README.md)
 
 ## 회차
